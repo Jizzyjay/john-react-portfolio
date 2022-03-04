@@ -19,18 +19,18 @@ const project = () => {
                     <a href='https://github.com/Jizzyjay/roboapp' className='btn'>Github</a>
                     <a href='https://robopp.netlify.app/' className='btn btn-primary'>Live Demo </a>
                 </div>
-                <img src={Robo} alt="Robo app image" />
+                <img src={Robo} alt="Robo app" />
                 <h3>Roboapp is a robot app, where robots are generated with an API.</h3>
             </article>
 
             <article className='project_item'>
-                <div className='project_item-image'></div>
+                <div className='project_item-img'></div>
                 <h3>Jay Bakery</h3>
                 <div className='project_item-cta'>
                     <a href='https://github.com/Jizzyjay/Jay-Bakery' className='btn'>Github</a>
                     <a href='https://jaybakery.netlify.app/' className='btn btn-primary'>Live Demo</a>
                 </div>
-                <img src={Jay} alt="Jay image" />
+                <img src={Jay} alt="Jay img" />
                 <h4>Jay Bakery landing page shows the products, price, location and services offered by them.</h4>
             </article>
 
@@ -39,7 +39,7 @@ const project = () => {
                 <h3>Todo App</h3>
                 <a href='https://github.com/Jizzyjay/To-do-App' className='btn'>Github</a>
                 <a href='https://todooaapp.netlify.app/' className='btn btn-primary'>Live Demo</a>
-                <img src={Todo} alt="Todo image" />
+                <img src={Todo} alt="Todo" />
                 <h4>ToDo App is designed to keep track and maintain our day-to-day tasks or list everything that we have to do. It's helpful in planning our daily schedules. We can add more tasks at any time and delete a task that is completed.</h4>
             </article>
 
@@ -51,7 +51,7 @@ const project = () => {
                     <a href='https://github.com/Jizzyjay/Jay-Bakery' className='btn'>Github</a>
                     <a href='https://jaybakery.netlify.app/' className='btn btn-primary'>Live Demo</a>
                 </div>
-                <img src={Background} alt="Jay image" />
+                <img src={Background} alt="Jay" />
                 <h4>This color gradient specifies a range of position-dependent colors. The colors produced by a gradient vary continuously with position, producing smooth color transitions.</h4>
             </article>
 
@@ -62,7 +62,7 @@ const project = () => {
                     <a href='https://github.com/Jizzyjay/Jay-Bakery' className='btn'>Github</a>
                     <a href='https://jaybakery.netlify.app/' className='btn btn-primary'>Live Demo</a>
                 </div>
-                <img src={Jay} alt="Jay image" />
+                <img src={Jay} alt="Jay" />
                 <h4>Jay Bakery landing page shows the products, price, location and services offered by them.</h4>
             </article>
 

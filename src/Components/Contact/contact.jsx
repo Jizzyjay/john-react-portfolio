@@ -28,19 +28,19 @@ const Contact = () => {
                         <MdEmail className='contact_option-icon'/>
                         <h4>Email</h4>
                         <h5>ekunolajohn@gmail.com</h5>
-                        <a href='mailto:=ekunolajohn@gmail.com' target='_blank' className='btn btn-primary'>Send a Message</a>
+                        <a href='mailto:=ekunolajohn@gmail.com' target='_blank' rel="noreferrer" className='btn btn-primary'>Send a Message</a>
                     </article>
 
                     <article className='contact_option'>
                         <IoLogoWhatsapp className='contact_option-icon'/>
                         <h4>WhatsApp</h4>
-                        <a href='https://api.whatsapp.com/send?phone=8141153727&text=John%20Ekunola' target='_blank' className='btn btn-primary'>Send a Message</a>
+                        <a href='https://api.whatsapp.com/send?phone=8141153727&text=John%20Ekunola' rel="noreferrer" target='_blank' className='btn btn-primary'>Send a Message</a>
                     </article>
 
                     <article className='contact_option'>
                         <BsTwitter className='contact_option-icon'/>
                         <h4>Twitter</h4>
-                        <a href='https://twitter.com/jizzy_jay423' target='_blank' className='btn btn-primary'>Send a Message</a>
+                        <a href='https://twitter.com/jizzy_jay423' target='_blank' rel="noreferrer" className='btn btn-primary'>Send a Message</a>
                     </article>
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
