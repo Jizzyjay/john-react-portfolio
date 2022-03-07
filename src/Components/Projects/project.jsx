@@ -4,6 +4,7 @@ import Robo from '../../assets/roboapp.png'
 import Jay from '../../assets/jaybakery.png'
 import Todo from '../../assets/todo.png'
 import Background from '../../assets/background.png'
+import Tasty from '../../assets/tastydish.png'
 
 const project = () => {
     return (
@@ -54,18 +55,18 @@ const project = () => {
                 <img src={Background} alt="Jay" />
                 <h4>This color gradient specifies a range of position-dependent colors. The colors produced by a gradient vary continuously with position, producing smooth color transitions.</h4>
             </article>
-            {/*
+            
             <article className='project_item'>
                 <div className='project_item-image'></div>
-                <h3>Jay Bakery</h3>
+                <h3>Tasty Dish Landing Page</h3>
                 <div className='project_item-cta'>
-                    <a href='https://github.com/Jizzyjay/Jay-Bakery' className='btn'>Github</a>
-                    <a href='https://jaybakery.netlify.app/' className='btn btn-primary'>Live Demo</a>
+                    <a href='https://github.com/Jizzyjay/tastyfood' className='btn'>Github</a>
+                    <a href='https://tastydish.netlify.app' className='btn btn-primary'>Live Demo</a>
                 </div>
-                <img src={Jay} alt="Jay" />
-                <h4>Jay Bakery landing page shows the products, price, location and services offered by them.</h4>
+                <img src={Tasty} alt="Tasty" />
+                <h4>Tasty Dish landing page shows what the resturant offers, the price of some of thier food, location, social media links etc.</h4>
             </article>
-            */}
+            
             </div>
         </section>
     )
