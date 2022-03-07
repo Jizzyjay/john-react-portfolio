@@ -54,7 +54,7 @@ const project = () => {
                 <img src={Background} alt="Jay" />
                 <h4>This color gradient specifies a range of position-dependent colors. The colors produced by a gradient vary continuously with position, producing smooth color transitions.</h4>
             </article>
-
+            {/*
             <article className='project_item'>
                 <div className='project_item-image'></div>
                 <h3>Jay Bakery</h3>
@@ -65,7 +65,7 @@ const project = () => {
                 <img src={Jay} alt="Jay" />
                 <h4>Jay Bakery landing page shows the products, price, location and services offered by them.</h4>
             </article>
-
+            */}
             </div>
         </section>
     )
