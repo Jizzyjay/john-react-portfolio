@@ -38,6 +38,14 @@ const experience = () => {
                         </article>
                         <article className='experience_details'>
                             <BsPatchCheckFill className='experience_details-icon' />
+                            <div><h4>Gatsby</h4></div>
+                        </article>
+                        <article className='experience_details'>
+                            <BsPatchCheckFill className='experience_details-icon' />
+                            <div><h4>WordPress</h4></div>
+                        </article>
+                        <article className='experience_details'>
+                            <BsPatchCheckFill className='experience_details-icon' />
                             <div><h4>Github</h4></div>
                         </article>
                         <article className='experience_details'>
@@ -55,34 +63,32 @@ const experience = () => {
                             <BsPatchCheckFill className='experience_details-icon' />
                             <div><h4>Communication</h4></div>
                         </article>
-
                         <article className='experience_details'>
                             <BsPatchCheckFill className='experience_details-icon' />
                             <div><h4>Project Management</h4></div>
                         </article>
-
                         <article className='experience_details'>
                             <BsPatchCheckFill className='experience_details-icon' />
                             <div><h4>Team Player</h4></div>
                         </article>
-
+                        <article className='experience_details'>
+                            <BsPatchCheckFill className='experience_details-icon' />
+                            <div><h4>Interpersonal Skills</h4></div>
+                        </article>
                         <article className='experience_details'>
                             <BsPatchCheckFill className='experience_details-icon' />
                             <div><h4>Time management</h4></div>
                         </article>
-
                         <article className='experience_details'>
                             <BsPatchCheckFill className='experience_details-icon' />
                             <div><h4>Critical Thinking</h4></div>
                         </article>
-
                         <article className='experience_details'>
                             <BsPatchCheckFill className='experience_details-icon' />
                             <div><h4>Problem-Solving</h4></div>
                         </article>
                     </div>
                 </div>
-            
             </div>
         </section>
     )
