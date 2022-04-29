@@ -16,14 +16,12 @@ const about = () => {
                         <img src={ME} alt="About Img"></img>
                     </div>
                 </div>
-
                 <div className='about_content'>
                     <div className='about_cards'>
                         <article className='about_card'>
                         <FaAward className='about_icon'/>
                         <h5>Experience</h5>
                         </article>
-
                         <article className='about_card'>
                         <FcFolder className='about_icon'/>
                         <h5>Projects</h5>
