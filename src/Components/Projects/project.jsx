@@ -15,6 +15,17 @@ const project = () => {
             <div className='container project_container'>
             <article className='project_item'>
                 <div className='project_item-image'></div>
+                <h3>(ja FoodHub)</h3>
+                <div className='project_item-cta'>
+                    <a href='https://github.com/Jizzyjay/9ja-food' rel="noreferrer" target='_blank' className='btn'>Github</a>
+                    <a href='9jafoodhub.netlify.app' rel="noreferrer" target='_blank' className='btn btn-primary'>Live Demo </a>
+                </div>
+                <img src={Robo} alt="Robo app" />
+                <h3>Roboapp is a robot app, where robots are generated with an API.</h3>
+            </article>
+
+            <article className='project_item'>
+                <div className='project_item-image'></div>
                 <h3>Roboapp</h3>
                 <div className='project_item-cta'>
                     <a href='https://github.com/Jizzyjay/roboapp' rel="noreferrer" target='_blank' className='btn'>Github</a>
