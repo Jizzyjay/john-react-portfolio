@@ -5,6 +5,7 @@ import Jay from '../../assets/jaybakery.png'
 import Todo from '../../assets/todo.png'
 import Background from '../../assets/background.png'
 import Tasty from '../../assets/tastydish.png'
+import FoodHub from '../../assets/9ja.png'
 
 const project = () => {
     return (
@@ -15,13 +16,13 @@ const project = () => {
             <div className='container project_container'>
             <article className='project_item'>
                 <div className='project_item-image'></div>
-                <h3>(ja FoodHub)</h3>
+                <h3>9ja FoodHub</h3>
                 <div className='project_item-cta'>
                     <a href='https://github.com/Jizzyjay/9ja-food' rel="noreferrer" target='_blank' className='btn'>Github</a>
                     <a href='9jafoodhub.netlify.app' rel="noreferrer" target='_blank' className='btn btn-primary'>Live Demo </a>
                 </div>
-                <img src={Robo} alt="Robo app" />
-                <h3>Roboapp is a robot app, where robots are generated with an API.</h3>
+                <img src={FoodHub} alt="Robo app" />
+                <h3>9ja FoodHub</h3>
             </article>
 
             <article className='project_item'>
