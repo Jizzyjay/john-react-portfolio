@@ -19,10 +19,10 @@ const project = () => {
                 <h3>9ja FoodHub</h3>
                 <div className='project_item-cta'>
                     <a href='https://github.com/Jizzyjay/9ja-food' rel="noreferrer" target='_blank' className='btn'>Github</a>
-                    <a href='9jafoodhub.netlify.app' rel="noreferrer" target='_blank' className='btn btn-primary'>Live Demo </a>
+                    <a href='https://9jafoodhub.netlify.app/' rel="noreferrer" target='_blank' className='btn btn-primary'>Live Demo </a>
                 </div>
                 <img src={FoodHub} alt="Robo app" />
-                <h3>9ja FoodHub</h3>
+                <h3>9ja FoodHub landing page </h3>
             </article>
 
             <article className='project_item'>
