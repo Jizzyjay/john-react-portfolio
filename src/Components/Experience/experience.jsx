@@ -42,11 +42,19 @@ const experience = () => {
                         </article>
                         <article className='experience_details'>
                             <BsPatchCheckFill className='experience_details-icon' />
+                            <div><h4>Styled-Components</h4></div>
+                        </article>
+                        <article className='experience_details'>
+                            <BsPatchCheckFill className='experience_details-icon' />
                             <div><h4>WordPress</h4></div>
                         </article>
                         <article className='experience_details'>
                             <BsPatchCheckFill className='experience_details-icon' />
                             <div><h4>Github</h4></div>
+                        </article>
+                        <article className='experience_details'>
+                            <BsPatchCheckFill className='experience_details-icon' />
+                            <div><h4>Gitlab</h4></div>
                         </article>
                         <article className='experience_details'>
                             <BsPatchCheckFill className='experience_details-icon' />
