@@ -6,6 +6,7 @@ import Todo from '../../assets/todo.png'
 import Background from '../../assets/background.png'
 import Tasty from '../../assets/tastydish.png'
 import FoodHub from '../../assets/9ja.png'
+import Dashboard from '../../assets/dashboard.png'
 
 const project = () => {
     return (
@@ -16,17 +17,6 @@ const project = () => {
             <div className='container project_container'>
             <article className='project_item'>
                 <div className='project_item-image'></div>
-                <h3>9ja FoodHub</h3>
-                <div className='project_item-cta'>
-                    <a href='https://github.com/Jizzyjay/9ja-food' rel="noreferrer" target='_blank' className='btn'>Github</a>
-                    <a href='https://9jafoodhub.netlify.app/' rel="noreferrer" target='_blank' className='btn btn-primary'>Live Demo </a>
-                </div>
-                <img src={FoodHub} alt="Robo app" />
-                <h3>9ja FoodHub landing page </h3>
-            </article>
-
-            <article className='project_item'>
-                <div className='project_item-image'></div>
                 <h3>Roboapp</h3>
                 <div className='project_item-cta'>
                     <a href='https://github.com/Jizzyjay/roboapp' rel="noreferrer" target='_blank' className='btn'>Github</a>
@@ -34,6 +24,28 @@ const project = () => {
                 </div>
                 <img src={Robo} alt="Robo app" />
                 <h3>Roboapp is a robot app, where robots are generated with an API.</h3>
+            </article>
+
+            <article className='project_item'>
+                <div className='project_item-image'></div>
+                <h3>Dashboard</h3>
+                <div className='project_item-cta'>
+                    <a href='https://github.com/Jizzyjay/Dashboard' rel="noreferrer" target='_blank' className='btn'>Github</a>
+                    <a href='https://johndashboaard.netlify.app/' rel="noreferrer" target='_blank' className='btn btn-primary'>Live Demo </a>
+                </div>
+                <img src={Dashboard} alt="Dashboard" />
+                <h3>Dashboard(using Html, Css and Javascript).</h3>
+            </article>
+
+            <article className='project_item'>
+                <div className='project_item-image'></div>
+                <h3>9ja FoodHub</h3>
+                <div className='project_item-cta'>
+                    <a href='https://github.com/Jizzyjay/9ja-food' rel="noreferrer" target='_blank' className='btn'>Github</a>
+                    <a href='https://9jafoodhub.netlify.app/' rel="noreferrer" target='_blank' className='btn btn-primary'>Live Demo </a>
+                </div>
+                <img src={FoodHub} alt="" />
+                <h3>9ja FoodHub landing page </h3>
             </article>
 
             <article className='project_item'>
