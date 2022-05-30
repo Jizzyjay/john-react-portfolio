@@ -7,6 +7,7 @@ import Background from '../../assets/background.png'
 import Tasty from '../../assets/tastydish.png'
 import FoodHub from '../../assets/9ja.png'
 import Dashboard from '../../assets/dashboard.png'
+import TravelX from '../../assets/travelx.png'
 
 const project = () => {
     return (
@@ -35,6 +36,17 @@ const project = () => {
                 </div>
                 <img src={Dashboard} alt="Dashboard" />
                 <h3>Dashboard(using Html, Css and Javascript).</h3>
+            </article>
+
+            <article className='project_item'>
+                <div className='project_item-image'></div>
+                <h3>TravelX</h3>
+                <div className='project_item-cta'>
+                    <a href='https://github.com/Jizzyjay/travelx-main' rel="noreferrer" target='_blank' className='btn'>Github</a>
+                    <a href='https://travex.netlify.app/' rel="noreferrer" target='_blank' className='btn btn-primary'>Live Demo </a>
+                </div>
+                <img src={TravelX} alt="" />
+                <h3>TravelX Landing Page(using Gatsby)</h3>
             </article>
 
             <article className='project_item'>
