@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.css'
 import {ImGithub} from 'react-icons/im'
 import {BsTwitter} from 'react-icons/bs'
-import {FaLinkedin} from 'react-icons/fa'
+import {FaLinkedin, FaDev} from 'react-icons/fa'
 
 const footer = () => {
     return (
@@ -21,6 +21,7 @@ const footer = () => {
                 <a href='https://www.linkedin.com/in/ekunolajohn/' rel="noreferrer" target='_blank'><FaLinkedin /></a>
                 <a href='https://github.com/Jizzyjay' rel="noreferrer" target='_blank'><ImGithub /></a>
                 <a href='https://twitter.com/jizzy_jay423' rel="noreferrer" target='_blank'><BsTwitter /></a>
+                <a href='https://dev.to/jizzyjay' rel="noreferrer" target='_blank'><FaDev/></a>
             </div>
 
             <div className='footer_copyright'>

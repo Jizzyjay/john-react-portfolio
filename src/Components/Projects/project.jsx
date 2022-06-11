@@ -14,7 +14,6 @@ const project = () => {
         <section id='project'>
             <h5>My Recent Works</h5>
             <h2>Projects</h2>
-
             <div className='container project_container'>
             <article className='project_item'>
                 <div className='project_item-image'></div>
@@ -26,7 +25,6 @@ const project = () => {
                 <img src={Robo} alt="Robo app" />
                 <h3>Roboapp is a robot app, where robots are generated with an API.</h3>
             </article>
-
             <article className='project_item'>
                 <div className='project_item-image'></div>
                 <h3>Dashboard</h3>
@@ -37,7 +35,6 @@ const project = () => {
                 <img src={Dashboard} alt="Dashboard" />
                 <h3>Dashboard(using Html, Css and Javascript).</h3>
             </article>
-
             <article className='project_item'>
                 <div className='project_item-image'></div>
                 <h3>TravelX</h3>
@@ -48,7 +45,6 @@ const project = () => {
                 <img src={TravelX} alt="" />
                 <h3>TravelX Landing Page(using Gatsby)</h3>
             </article>
-
             <article className='project_item'>
                 <div className='project_item-image'></div>
                 <h3>9ja FoodHub</h3>
@@ -59,7 +55,6 @@ const project = () => {
                 <img src={FoodHub} alt="" />
                 <h3>9ja FoodHub landing page </h3>
             </article>
-
             <article className='project_item'>
                 <div className='project_item-img'></div>
                 <h3>Jay Bakery</h3>
