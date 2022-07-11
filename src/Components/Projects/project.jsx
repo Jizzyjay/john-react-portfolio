@@ -8,6 +8,7 @@ import Tasty from '../../assets/tastydish.png'
 import FoodHub from '../../assets/9ja.png'
 import Dashboard from '../../assets/dashboard.png'
 import TravelX from '../../assets/travelx.png'
+import LearnCode from '../../assets/LearnCode.png'
 
 const project = () => {
     return (
@@ -24,6 +25,16 @@ const project = () => {
                 </div>
                 <img src={Robo} alt="Robo app" />
                 <h3>Roboapp is a robot app, where robots are generated with an API.</h3>
+            </article>
+            <article className='project_item'>
+                <div className='project_item-image'></div>
+                <h3>LearnCode</h3>
+                <div className='project_item-cta'>
+                    <a href='https://github.com/Jizzyjay/learncode' rel="noreferrer" target='_blank' className='btn'>Github</a>
+                    <a href='https://learnreact1.netlify.app/' rel="noreferrer" target='_blank' className='btn btn-primary'>Live Demo </a>
+                </div>
+                <img src={LearnCode} alt="Dashboard" />
+                <h3>LearnCode.</h3>
             </article>
             <article className='project_item'>
                 <div className='project_item-image'></div>
