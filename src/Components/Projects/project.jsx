@@ -34,7 +34,7 @@ const project = () => {
                     <a href='https://learnreact1.netlify.app/' rel="noreferrer" target='_blank' className='btn btn-primary'>Live Demo </a>
                 </div>
                 <img src={LearnCode} alt="Dashboard" />
-                <h3>LearnCode.</h3>
+                <h3>LearnCode is designed to allow people learn React(using Sritpe API for payment of Courses).</h3>
             </article>
             <article className='project_item'>
                 <div className='project_item-image'></div>
