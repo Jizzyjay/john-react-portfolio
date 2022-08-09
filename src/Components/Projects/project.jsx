@@ -9,6 +9,8 @@ import FoodHub from '../../assets/9ja.png'
 import Dashboard from '../../assets/dashboard.png'
 import TravelX from '../../assets/travelx.png'
 import LearnCode from '../../assets/LearnCode.png'
+import Fudo from '..//../assets/fudo.png'
+import Real from '../../assets/real.png'
 
 const project = () => {
     return (
@@ -35,6 +37,26 @@ const project = () => {
                 </div>
                 <img src={LearnCode} alt="Dashboard" />
                 <h3>LearnCode is designed to allow people learn React(using Sritpe API for payment of Courses).</h3>
+            </article>
+            <article className='project_item'>
+                <div className='project_item-image'></div>
+                <h3>Fudo</h3>
+                <div className='project_item-cta'>
+                    <a href='https://github.com/Jizzyjay/Fudo' rel="noreferrer" target='_blank' className='btn'>Github</a>
+                    <a href='https://sunny-chebakia-420a7b.netlify.app/' rel="noreferrer" target='_blank' className='btn btn-primary'>Live Demo </a>
+                </div>
+                <img src={Fudo} alt="fudo" />
+                <h3>Fudo.</h3>
+            </article>
+            <article className='project_item'>
+                <div className='project_item-image'></div>
+                <h3>House Search</h3>
+                <div className='project_item-cta'>
+                    <a href='https://github.com/Jizzyjay/house-search' rel="noreferrer" target='_blank' className='btn'>Github</a>
+                    <a href='https://famous-starlight-5b999d.netlify.app/' rel="noreferrer" target='_blank' className='btn btn-primary'>Live Demo </a>
+                </div>
+                <img src={Real} alt="Dashboard" />
+                <h3>House Search(using Html, Css and Javascript).</h3>
             </article>
             <article className='project_item'>
                 <div className='project_item-image'></div>
