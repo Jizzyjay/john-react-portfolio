@@ -56,7 +56,7 @@ const project = () => {
                     <a href='https://famous-starlight-5b999d.netlify.app/' rel="noreferrer" target='_blank' className='btn btn-primary'>Live Demo </a>
                 </div>
                 <img src={Real} alt="Dashboard" />
-                <h3>House Search(using Html, Css and Javascript).</h3>
+                <h3>House Search, search price and locations of different appartment.</h3>
             </article>
             <article className='project_item'>
                 <div className='project_item-image'></div>
