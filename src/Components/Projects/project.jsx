@@ -46,7 +46,7 @@ const project = () => {
                     <a href='https://sunny-chebakia-420a7b.netlify.app/' rel="noreferrer" target='_blank' className='btn btn-primary'>Live Demo </a>
                 </div>
                 <img src={Fudo} alt="fudo" />
-                <h3>Fudo.</h3>
+                <h3>Fudo, search for food price and calories.</h3>
             </article>
             <article className='project_item'>
                 <div className='project_item-image'></div>
