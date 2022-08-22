@@ -66,7 +66,7 @@ const project = () => {
                     <a href='https://travex.netlify.app/' rel="noreferrer" target='_blank' className='btn btn-primary'>Live Demo </a>
                 </div>
                 <img src={TravelX} alt="" />
-                <h3>TravelX Landing Page(using Gatsby)</h3>
+                <h3>TravelX Landing Page(using Gatsby).</h3>
             </article>
             <article className='project_item'>
                 <div className='project_item-image'></div>
@@ -76,7 +76,7 @@ const project = () => {
                     <a href='https://9jafoodhub.netlify.app/' rel="noreferrer" target='_blank' className='btn btn-primary'>Live Demo </a>
                 </div>
                 <img src={FoodHub} alt="" />
-                <h3>9ja FoodHub landing page </h3>
+                <h3>9ja FoodHub landing page. </h3>
             </article>
             <article className='project_item'>
                 <div className='project_item-image'></div>
@@ -117,6 +117,7 @@ const project = () => {
                 <img src={Background} alt="Jay" />
                 <h4>This color gradient specifies a range of position-dependent colors. The colors produced by a gradient vary continuously with position, producing smooth color transitions.</h4>
             </article>   */}
+
             <article className='project_item'>
                 <div className='project_item-image'></div>
                 <h3>Tasty Dish Landing Page</h3>
