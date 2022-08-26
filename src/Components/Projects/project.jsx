@@ -11,6 +11,7 @@ import TravelX from '../../assets/travelx.png'
 import LearnCode from '../../assets/LearnCode.png'
 import Fudo from '..//../assets/fudo.png'
 import Real from '../../assets/real.png'
+import Rent from '../../assets/7fg2r.png'
 
 const project = () => {
     return (
@@ -37,6 +38,16 @@ const project = () => {
                 </div>
                 <img src={Fudo} alt="fudo" />
                 <h3>Fudo, search for food price and calories.</h3>
+            </article>
+            <article className='project_item'>
+                <div className='project_item-image'></div>
+                <h3>Jay Rent</h3>
+                <div className='project_item-cta'>
+                    <a href='https://github.com/Jizzyjay/jay-rent' rel="noreferrer" target='_blank' className='btn'>Github</a>
+                    <a href='https://admirable-yeot-a56db1.netlify.app/contact' rel="noreferrer" target='_blank' className='btn btn-primary'>Live Demo </a>
+                </div>
+                <img src={Rent} alt="" />
+                <h3>Jay Rent landing page where you cant pick and rent cars.</h3>
             </article>
             <article className='project_item'>
                 <div className='project_item-image'></div>
@@ -68,7 +79,7 @@ const project = () => {
                 <img src={TravelX} alt="" />
                 <h3>TravelX Landing Page(using Gatsby).</h3>
             </article>
-            <article className='project_item'>
+            {/* <article className='project_item'>
                 <div className='project_item-image'></div>
                 <h3>9ja FoodHub</h3>
                 <div className='project_item-cta'>
@@ -77,7 +88,7 @@ const project = () => {
                 </div>
                 <img src={FoodHub} alt="" />
                 <h3>9ja FoodHub landing page. </h3>
-            </article>
+            </article> */}
             <article className='project_item'>
                 <div className='project_item-image'></div>
                 <h3>Roboapp</h3>

@@ -40,7 +40,7 @@ const Contact = () => {
                     <article className='contact_option'>
                         <BsTwitter className='contact_option-icon'/>
                         <h4>Twitter</h4>
-                        <a href='https://twitter.com/jizzy_jay423' target='_blank' rel="noreferrer" className='btn btn-primary'>Send a Message</a>
+                        <a href='https://twitter.com/Oluwatosin_EJ' target='_blank' rel="noreferrer" className='btn btn-primary'>Send a Message</a>
                     </article>
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
