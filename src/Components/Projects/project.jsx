@@ -27,7 +27,7 @@ const project = () => {
                     <a href='https://learnreact1.netlify.app/' rel="noreferrer" target='_blank' className='btn btn-primary'>Live Demo </a>
                 </div>
                 <img src={LearnCode} alt="Dashboard" />
-                <h3>LearnCode is designed to allow people learn React(using Sritpe API for payment of Courses).</h3>
+                <h3>LearnCode is designed to allow people learn React(using Stripe API for payment of Courses).</h3>
             </article>
             <article className='project_item'>
                 <div className='project_item-image'></div>
@@ -57,7 +57,7 @@ const project = () => {
                     <a href='https://famous-starlight-5b999d.netlify.app/' rel="noreferrer" target='_blank' className='btn btn-primary'>Live Demo </a>
                 </div>
                 <img src={Real} alt="Dashboard" />
-                <h3>House Search, search price and locations of different appartment.</h3>
+                <h3>House Search, search price and locations of different apartment.</h3>
             </article>
             <article className='project_item'>
                 <div className='project_item-image'></div>
@@ -137,7 +137,7 @@ const project = () => {
                     <a href='https://tastydish.netlify.app' className='btn btn-primary' rel="noreferrer" target='_blank'>Live Demo</a>
                 </div>
                 <img src={Tasty} alt="Tasty" />
-                <h4>Tasty Dish landing page shows what the resturant offers, the price of some of thier food, location, social media links etc.</h4>
+                <h4>Tasty Dish landing page shows what the restaurant offers, the price of some of their food, location, social media links etc.</h4>
             </article> 
             </div>
         </section>
