@@ -12,6 +12,7 @@ import LearnCode from '../../assets/LearnCode.png'
 import Fudo from '..//../assets/fudo.png'
 import Real from '../../assets/real.png'
 import Rent from '../../assets/7fg2r.png'
+import instagram from '../../assets/instagram pics.png'
 
 const project = () => {
     return (
@@ -19,6 +20,16 @@ const project = () => {
             <h5>My Recent Works</h5>
             <h2>Projects</h2>
             <div className='container project_container'>
+            <article className='project_item'>
+                <div className='project_item-image'></div>
+                <h3>Instagram Clone</h3>
+                <div className='project_item-cta'>
+                    <a href='https://github.com/Jizzyjay/instagram' rel="noreferrer" target='_blank' className='btn'>Github</a>
+                    <a href='https://chipper-fairy-0718df.netlify.app/' rel="noreferrer" target='_blank' className='btn btn-primary'>Live Demo </a>
+                </div>
+                <img src={instagram} alt="Dashboard" />
+                <h3>Add and delete pictures on instagram clone.</h3>
+            </article>
             <article className='project_item'>
                 <div className='project_item-image'></div>
                 <h3>LearnCode</h3>
